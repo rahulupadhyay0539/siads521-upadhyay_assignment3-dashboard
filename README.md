@@ -16,9 +16,9 @@ This project presents an interactive dashboard built using Panel to explore vehi
 - MPG improves over model years
 
 ## Setup
-Pip install panel hvplot seaborn pandas
+pip install panel hvplot seaborn pandas
 
-## How to depoly dashboard locally, App hosted locally: http://localhost:5006/assignment3_dashboard
+## How to deploy dashboard locally, App hosted locally: http://localhost:5006/assignment3_dashboard
 
 pip install -r requirements.txt
 python -m panel serve assignment3_dashboard.py
