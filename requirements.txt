@@ -1,0 +1,6 @@
+pandas
+seaborn
+panel
+hvplot
+bokeh
+numpy
