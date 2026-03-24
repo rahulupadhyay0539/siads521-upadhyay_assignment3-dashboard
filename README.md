@@ -12,7 +12,7 @@ This project presents an interactive dashboard built using Panel to explore vehi
 ## Key Insights
 - Fuel efficiency decreases as vehicle weight increases
 - Japanese vehicles tend to have higher MPG
-- Most vehicles fall within 1530 MPG range
+- Most vehicles fall within 15-30 MPG range
 - MPG improves over model years
 
 ## Setup
