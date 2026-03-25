@@ -28,9 +28,16 @@ range_slider = pn.widgets.RangeSlider(
 
 # Plots
 @pn.depends(var_select, range_slider)
+@pn.depends(var_select, range_slider)
 def histogram(var, range_val):
     filtered = df[(df[var] >= range_val[0]) & (df[var] <= range_val[1])]
-    return filtered.hvplot.hist(var)
+    return filtered.hvplot.hist(
+        y=var,
+        bins=20,
+        xlabel=var.upper(),
+        ylabel='Count',
+        title=f'Distribution of {var.upper()}'
+    )
 
 @pn.depends(x_select, y_select, category_select)
 def scatter(x, y, category):
